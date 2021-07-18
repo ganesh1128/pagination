@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="index.css" />
+    <script>
+        var __basePath = '';
+    </script>
+    
+    <script src="https://unpkg.com/ag-grid-enterprise@19.0.0/dist/ag-grid-enterprise.min.js"></script>
+    </head>
+    
+    <body>
+        <script src=index.js></script>
+    
+        <style>
+            
+        </style>
+    
+        <div style="box-sizing: border-box; padding-top: 65px; height: 100%;margin-right: -60%;padding-bottom: 70%;">
+            <div style="height: 100%;" id="myGrid" class="ag-theme-balham">
+    
+        </div>
+    
+        <div style="position: bottom;">
+    
+            <div style="display: flex;
+                   flex-direction: row;
+                    justify-content: space-evenly;
+                    ">
+                <!-- <button onclick="onBtFirst()">To First</button>
+                <button onclick="onBtLast()" id="btLast" disabled="true">To Last</button> -->
+                <button onclick="onBtPrevious()"> Previous</button>
+                <button onclick="onBtNext()"> Next</button>
+                <!-- <button onclick="onBtPageFive()">To Page 5</button>
+                <button onclick="onBtPageFifty()">To Page 50</button> -->
+            </div>
+    
+            <!-- <div style="margin-top: 6px">
+                <span class="label">Last Page Found:</span>
+                <span class="value" id="lbLastPageFound">-</span>
+                <span class="label">Page Size:</span>
+                <span class="value" id="lbPageSize">-</span>
+                <span class="label">Total Pages:</span>
+                <span class="value" id="lbTotalPages">-</span>
+                <span class="label">Current Page:</span>
+                <span class="value" id="lbCurrentPage">-</span>
+            </div> -->
+        </div>
+</html>
